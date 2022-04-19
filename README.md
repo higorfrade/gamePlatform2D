@@ -69,7 +69,7 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 - Mecânica de Tiro
   - Pode acessar por meio desse Link: [Brackeys](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
 - Configurar a Animação dos Sprites
-  - Pode acessar por meio desse Link: [Mustache Game Studio TV](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
+  - Pode acessar por meio desse Link: [Mustache Game Studio TV](https://www.youtube.com/watch?v=cGt9IhS74cA)
 <hr>
 
 ## Autores
