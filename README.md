@@ -27,20 +27,20 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 1. Faça download desse repositório Git.
 
 2. Unity
-  - Baixe o Unity (_Remomendamos a versão **2020.3.33f1**_).
-    - Acesse o site da Unity e baixe o Unity Hub: [Download](https://unity3d.com/pt/get-unity/download).
-    - Crie uma conta.
-  - Faça a instalação do Unity Hub e em seguida acesse a aba: **Installs -> Install Editor -> Selecione a versão citada acima ou superior**.
-  - Após terminar o Download, no Unity Hub abra a pasta do repositório chamada "_Game 2D_".
+   - Baixe o Unity (_Remomendamos a versão **2020.3.33f1**_).
+     - Acesse o site da Unity e baixe o Unity Hub: [Download](https://unity3d.com/pt/get-unity/download).
+     - Crie uma conta.
+   - Faça a instalação do Unity Hub e em seguida acesse a aba: **Installs -> Install Editor -> Selecione a versão citada acima ou superior**.
+   - Após terminar o Download, no Unity Hub abra a pasta do repositório chamada "_Game 2D_".
 
 3. Visual Studio 2019
-  - Baixe o Visual Studio 2019 (ao instalar o Unity Hub vai ter uma opção para instalar o VS2019 junto).
-    - Você também pode fazer o download por aqui: [Download](https://visualstudio.microsoft.com/pt-br/vs/older-downloads/) (**nota: É necessário uma conta Microsoft**).
-  - Faça a instalação normalmente.
+   - Baixe o Visual Studio 2019 (ao instalar o Unity Hub vai ter uma opção para instalar o VS2019 junto).
+     - Você também pode fazer o download por aqui: [Download](https://visualstudio.microsoft.com/pt-br/vs/older-downloads/) (**nota: É necessário uma conta Microsoft**).
+   - Faça a instalação normalmente.
 
 4. Utilizar o Unity com o Visual Studio
-  - Abra o Unity 2020.3.33f1 (ou superior).
-  - Acesse a aba **Edit -> Preferences -> External Tools -> External Script Editor: Selecione o VS2019**.
+   - Abra o Unity 2020.3.33f1 (ou superior).
+   - Acesse a aba **Edit -> Preferences -> External Tools -> External Script Editor: Selecione o VS2019**.
 <hr>
 
 ## Mecânicas do jogo
