@@ -63,6 +63,15 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 - [ ] Mais fases
 <hr>
 
+## Referências
+- Curso Udemy
+  - Pode acessar por meio desse Link: [Udemy](https://www.udemy.com/course/aprenda-criar-jogos-com-unity-na-pratica/)
+- Mecânica de Tiro
+  - Pode acessar por meio desse Link: [Brackeys](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
+- Configurar a Animação dos Sprites
+  - Pode acessar por meio desse Link: [Mustache Game Studio TV](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
+<hr>
+
 ## Autores
 - Higor Frade (https://github.com/higorfrade)
 - Victor Matheus Silva Lima (https://github.com/Victor-Silva98)
