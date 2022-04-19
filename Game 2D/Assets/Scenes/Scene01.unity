@@ -315,23 +315,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1221700258 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4421413453994191714, guid: fc488c61ab44ee343b7345089bffc8ed, type: 3}
-  m_PrefabInstance: {fileID: 7722206486696161036}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1221700261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221700258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be72e6d23cb4f5842957cdf9ad10632b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2009977455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1920951878225123885, guid: 2fba5740ccdd8564c84df727df53ea12, type: 3}
@@ -453,14 +436,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2009977460, guid: 2fba5740ccdd8564c84df727df53ea12, type: 3}
-      propertyPath: damage
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: 1920951878225123884, guid: 2fba5740ccdd8564c84df727df53ea12, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1920951878225123885, guid: 2fba5740ccdd8564c84df727df53ea12, type: 3}
       propertyPath: m_Name
       value: Shot
@@ -518,10 +493,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1132325288, guid: 62ec97c320b98da47aa58ca4b16b5fa5, type: 3}
-      propertyPath: health
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 2149778425592755880, guid: 62ec97c320b98da47aa58ca4b16b5fa5, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -580,17 +551,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1835319386, guid: fc488c61ab44ee343b7345089bffc8ed, type: 3}
-      propertyPath: health
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1835319386, guid: fc488c61ab44ee343b7345089bffc8ed, type: 3}
       propertyPath: shotPrefab
       value: 
       objectReference: {fileID: 2009977455}
-    - target: {fileID: 4421413453994191714, guid: fc488c61ab44ee343b7345089bffc8ed, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 7722206485881689251, guid: fc488c61ab44ee343b7345089bffc8ed, type: 3}
       propertyPath: m_RootOrder
       value: 1
