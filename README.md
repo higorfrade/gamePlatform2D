@@ -27,7 +27,7 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 1. Faça download desse repositório Git.
 
 2. Unity
-   - Baixe o Unity (_Remomendamos a versão **2020.3.33f1**_).
+   - Baixe o Unity (_Recomendamos a versão **2020.3.33f1**_).
      - Acesse o site da Unity e baixe o Unity Hub: [Download](https://unity3d.com/pt/get-unity/download).
      - Crie uma conta.
    - Faça a instalação do Unity Hub e em seguida acesse a aba: **Installs -> Install Editor -> Selecione a versão citada acima ou superior**.
