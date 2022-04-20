@@ -64,7 +64,7 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 <hr>
 
 ## Referências
-- Curso Udemy (usado como base para desenvolver nosso projeto)
+- Curso Udemy (_usado como base para desenvolver nosso projeto_)
   - Pode acessar por meio desse Link: [Udemy](https://www.udemy.com/course/aprenda-criar-jogos-com-unity-na-pratica/)
 - Mecânica de Tiro
   - Pode acessar por meio desse Link: [Brackeys](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
