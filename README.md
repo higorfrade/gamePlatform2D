@@ -64,12 +64,14 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 <hr>
 
 ## Referências
-- Curso Udemy
+- Curso Udemy (usado como base para desenvolver nosso projeto)
   - Pode acessar por meio desse Link: [Udemy](https://www.udemy.com/course/aprenda-criar-jogos-com-unity-na-pratica/)
 - Mecânica de Tiro
   - Pode acessar por meio desse Link: [Brackeys](https://www.youtube.com/watch?v=wkKsl1Mfp5M)
 - Configurar a Animação dos Sprites
   - Pode acessar por meio desse Link: [Mustache Game Studio TV](https://www.youtube.com/watch?v=cGt9IhS74cA)
+- Assets e Sprites
+  - Pode acessar por meio desse Link: [Warped Caves](https://assetstore.unity.com/packages/2d/characters/warped-caves-103250)
 <hr>
 
 ## Autores
