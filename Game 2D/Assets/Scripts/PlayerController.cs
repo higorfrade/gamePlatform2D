@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public int jumpForce;
     public int health;
     public Transform groundCheck;
+    public static Vector3 startPosition = new Vector3(-9.4f, -2.3f, 0);
 
     // Variáveis para controle de estados do Jogador
     private bool invunerable = false;
@@ -37,6 +38,9 @@ public class PlayerController : MonoBehaviour
         rigidbody2D = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animator>();
         transf = GetComponent<Transform>();
+
+        // Respawn pelo Checkpoint
+        spawnCheckpoint();
     }
 
     // Update is called once per frame
@@ -168,5 +172,23 @@ public class PlayerController : MonoBehaviour
     {
         // Chama uma função do gerenciador de cenas para carregar a cena atual
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+    }
+
+    // Função para colisão isTrigger
+    void OnTriggerEnter2D(Collider2D trigger)
+    {
+        // Se o jogador passar pelo checkpoint ele muda a posição de respawn e destroi o objeto "Checkpoint"
+        if (trigger.gameObject.tag == "Checkpoint")
+        {
+            startPosition = trigger.gameObject.transform.position;
+            Destroy(trigger.gameObject);
+        }
+    }
+
+    // Pega a nova posição do jogador
+    void spawnCheckpoint()
+    {
+        // Muda a posição do jogador
+        transform.position = startPosition;
     }
 }

@@ -8,6 +8,8 @@ public class ShotController : MonoBehaviour
     public float speed = 20f;
     public Rigidbody2D rigidbody2;
     public int damage;
+    public GameObject impactEffect;
+    private GameObject impact;
     
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,8 @@ public class ShotController : MonoBehaviour
 
         // Informa um Log com o nome do objeto atingido e se destroi
         Debug.Log(hitInfo.name);
+        impact = Instantiate(impactEffect, transform.position, transform.rotation);
+        Destroy(impact, 0.2f);
         Destroy(gameObject);
     }
 }

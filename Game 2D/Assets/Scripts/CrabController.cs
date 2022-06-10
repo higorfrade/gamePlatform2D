@@ -9,6 +9,8 @@ public class CrabController : MonoBehaviour
     public int health;
     public Transform groundCheck;
     public Transform wallCheck;
+    public GameObject deathEffect;
+    private GameObject death;
 
     // Variáveis para controles de estados do inimigo
     private bool grounded = false;
@@ -98,6 +100,8 @@ public class CrabController : MonoBehaviour
         // Se a vida do Crab chegar a 0 ele morre
         if (health <= 0)
         {
+            death = Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(death, 0.25f);
             Destroy(gameObject);
         }
     }
