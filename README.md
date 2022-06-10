@@ -53,13 +53,14 @@ Nele irão conter fases criadas por nós, no qual o jogador terá que passar por
 - [X] Morte dos inimigos
 - [X] Dano ao jogador
 - [X] Reinicio de fase ao morrer
+- [X] Animação para o impacto do tiro
+- [X] Animação de morte para os inimigos
+- [X] Checkpoint
 
 ### Implementações futuras
 - [ ] Tela inicial (**_Prioridade_**)
 - [ ] Tela de fim de jogo (**_Prioridade_**)
 - [ ] HUD com informações do jogador (**_Prioridade_**)
-- [ ] Animação para o impacto do tiro
-- [ ] Animação de morte para os inimigos
 - [ ] Mais fases
 <hr>
 
